@@ -3,7 +3,9 @@ import {
   writeTargets,
   readTargets,
 } from "../utils/targetsStorage.js";
+
 import path from "path";
+
 const __dirname = path.resolve();
 const TODOS_PATH =
   process.env.TODOS_PATH || path.join(__dirname, "data", "targets.json");
